@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>SOSassist - Connecting The People With Emergency Needs To The Nearest Hospital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Favicon -->
+    <link href="img/favicons/favicon.ico" rel="icon">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title"
+        content="SOSassist - Connecting The People With Emergency Needs To The Nearest Hospital" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="SOSassist" />
+    <meta property="og:image" content="img/intro.jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animate Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
+        integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- OWL Carousel Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+        integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main Stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/template.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="section navbar navbar-expand-lg bg-dark navbar-dark" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><span>SOS</span>assist</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <div class="navbar-nav align-items-center">
+                    <a href="#about" class="nav-item nav-link text-center">About Us</a>
+                    <a href="#features" class="nav-item nav-link text-center">Features</a>
+                    <a href="#howitworks" class="nav-item nav-link text-center">How It Works</a>
+                    <a href="#faq" class="nav-item nav-link text-center">FAQ</a>
+                    <a href="#contact" class="nav-item nav-link text-center">
+                        <b>Download app</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Intro Start -->
+    <div class="section d-flex bg-light align-items-center" id="intro" style="height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="hero-text">
+                        <h1 class="pt-4"><span style="font-weight: 300;">Get <span
+                                    class="fw-bold text-primary">SOS</span><span class="text-primary">assist</span>
+                                app.</span><br><span class="text-primary">Save your life</span>.
+                        </h1>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="hero-btn">
+                                <a class="btn btn-primary rounded-pill shadow px-5 py-3 me-2 mb-3" href="#download">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-apple fa-2x me-2"></i>
+                                        <div class="text-start">
+                                            <div style="font-size: 12px;">Download on the</div>
+                                            <div style="line-height: .8;">App Store</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="btn btn-primary-hollow border-2 text-capitalize rounded-pill px-5 py-3 mb-3"
+                                    href="#download">
+                                    <div class="d-flex align-items-center">
+                                        <i class="fa-brands fa-google-play fa-2x me-2"></i>
+                                        <div class="text-start">
+                                            <div style="font-size: 12px;">Download on the</div>
+                                            <div style="line-height: .8;">Play Store</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="mt-4">
+                                <img src="img/team-1.jpg" alt="MJ" class="rounded-circle border border-white border-3"
+                                    width="40">
+                                <img src="img/team-2.jpg" alt="KN" class="rounded-circle border border-white border-3"
+                                    width="40" style="margin-left: -20px;">
+                                <img src="img/team-3.jpg" alt="LP" class="rounded-circle border border-white border-3"
+                                    width="40" style="margin-left: -20px;">
+                                <img src="img/team-4.jpg" alt="MN"
+                                    class="rounded-circle border border-white border-3 d-none d-sm-inline" width="40"
+                                    style="margin-left: -20px;">
+                                <div class="d-inline ms-2 text-primary" style="font-size: 1rem">
+                                    <span style="font-weight: bold;">3.16M</span> active users
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 py-5 position-relative">
+                    <div class="position-absolute bg-primary-light rounded-circle animated pulse slower infinite delay-2s"
+                        style="height: 500px; width: 500px; left:calc(50% - 250px); top:calc(50% - 250px); opacity: .3;">
+                    </div>
+                    <div class="position-absolute bg-primary rounded-circle animated pulse slower infinite delay-1s"
+                        style="height: 400px; width: 400px; left:calc(50% - 200px);top:calc(50% - 200px); opacity: .5;">
+                    </div>
+                    <div class="position-absolute bg-primary rounded-circle animated pulse slower infinite"
+                        style="height: 300px; width: 300px; left:calc(50% - 150px);top:calc(50% - 150px)"></div>
+
+                    <div class="hero-image text-center wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="img/app.png" alt="" height="500" class="position-relative" style="z-index:2">
+                    </div>
+                    <div class="border border-3 border-primary rounded-4 p-1 position-absolute align-items-center d-none d-xl-flex wow fadeInUp"
+                        data-wow-delay="0.8s" style="z-index:2; left:0; bottom: 100px;">
+                        <div class="mx-3 text-primary">Scan to download<br><span class="fw-bold">SOS</span>assist app
+                        </div>
+                        <img src="img/qrcode.png" alt="" height="100" class="rounded-4">
+                    </div>
+                    <div class="position-absolute shadow wow bounceIn" data-wow-delay="1.2s"
+                        style="z-index:3; right:0; top: 15%;rotate: 5deg;">
+                        <div class="position-relative d-none d-xl-block bg-white text-center rounded-3 p-3">
+                            <div class="text-secondary-dark fs-7">The <span class="fw-bold">SOS</span>assist
+                                app<br>literally saved
+                                my mother's life.
+                            </div>
+                            <div class="fs-7">Dr. Phill</div>
+                            <div class="position-absolute text-secondary" style="left:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-left"></i></div>
+                            <div class="position-absolute text-secondary" style="right:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="position-absolute shadow wow bounceIn" data-wow-delay="1.4s"
+                        style="z-index:3; right:20px; top: 40%;rotate: -5deg;">
+                        <div class="position-relative d-none d-xl-block bg-white text-center rounded-3 p-3">
+                            <div class="text-secondary-dark fs-7">You won't find an app<br>more intuitive and
+                                easy
+                                to use.
+                            </div>
+                            <div class="fs-7">Healthline</div>
+                            <div class="position-absolute text-secondary" style="left:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-left"></i></div>
+                            <div class="position-absolute text-secondary" style="right:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="position-absolute shadow wow bounceIn" data-wow-delay="1.6s"
+                        style="z-index:3; right:0; bottom: 20%;">
+                        <div class="position-relative d-none d-xl-block bg-white text-center rounded-3 p-3">
+                            <div class="text-secondary-dark fs-7">The <span class="fw-bold">SOS</span>assist
+                                app<br>is a must-have for all ages.
+                            </div>
+                            <div class="fs-7">The Verge</div>
+                            <div class="position-absolute text-secondary" style="left:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-left"></i></div>
+                            <div class="position-absolute text-secondary" style="right:10px; top:10px;"><i
+                                    class="fa-solid fa-quote-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="btn arrow-nextsection text-primary">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Intro End -->
+
+
+
+    <!-- About Start -->
+    <div class="section about bg-primary text-white py-5" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 p-4 wow fadeInUp" data-wow-delay=".1s">
+                    <div class="section-header text-left">
+                        <h2 class="text-capitalize display-5" style="font-weight: 300;">What is <span
+                                class="fw-bold">SOS</span>assist?</h2>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            <span class="fw-bold">SOS</span>assist is an user-friendly app that connects the
+                            people with emergency needs to the nearest hospital.
+                        </p>
+                        <p>Our mission is to empower individuals during emergencies by providing a life-saving mobile
+                            app that seamlessly connects them to nearby hospitals, skilled paramedics, and reliable
+                            ambulance services.
+                        </p>
+                    </div>
+
+                    <div class="row g-5 py-5">
+                        <div class="col-lg-4 align-items-center wow fadeInUp" data-wow-delay=".7s">
+                            <div class="position-relative">
+                                <div class="mb-2 d-flex justify-content-center align-items-center">
+                                    <div class="icon-background-light shadow">
+                                        <i class="fa-regular fa-3x fa-circle-down text-primary"></i>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="ms-3">5.2M</h4>
+                                        <h6 class="ms-3 mb-0 text-uppercase fw-bold">App<br>installs</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 align-items-center wow fadeInUp" data-wow-delay=".9s">
+                            <div class="position-relative">
+                                <div class="mb-2 d-flex justify-content-center align-items-center">
+                                    <div class="icon-background-light shadow">
+                                        <i class="fa-solid fa-3x fa-people-group text-primary"></i>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="ms-3">3.1M</h4>
+                                        <h6 class="text-uppercase fw-bold ms-3 mb-0">Active<br>users</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 align-items-center wow fadeInUp" data-wow-delay="1.1s">
+                            <div class="position-relative">
+                                <div class="mb-2 d-flex justify-content-center align-items-center">
+                                    <div class="icon-background-light shadow">
+                                        <i class="fa-solid fa-3x fa-hand-holding-medical text-primary"></i>
+                                    </div>
+                                    <div class="">
+                                        <h4 class="ms-3">1.8M</h4>
+                                        <h6 class="ms-3 mb-0 text-uppercase fw-bold">Lives<br>saved</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <div class="row mb-4">
+                        <div class="col-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="about-img position-relative">
+                                <div class="position-absolute bg-primary-light"
+                                    style="border-radius: 100px 20px; left:20px; bottom:-20px; height: 100%; width: 100%;">
+                                </div>
+                                <img src="img/about-1.jpeg" alt="Image" class="shadow"
+                                    style="border-radius: 100px 20px;">
+                            </div>
+                        </div>
+                        <div class="col-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div class="about-img position-relative">
+                                <div class="position-absolute bg-primary-light"
+                                    style="border-radius: 20px 100px;; right: -20px; top:-20px; height: 100%; width: 100%;">
+                                </div>
+                                <img src="img/about-2.jpeg" alt="Image" class="shadow"
+                                    style="border-radius: 20px 100px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center pt-5 wow fadeIn" data-wow-delay="1.2s">
+                <a class="text-white text-uppercase" href="#features">See all features</a>
+                <a href="#features" class="btn arrow-nextsection text-white">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="section features py-5" id="features">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
+                            <div>
+                                <a href="javascript:void(0)" data-id="#feature-fast"
+                                    class="toggle-button bg-primary rounded-circle shadow d-flex align-items-center justify-content-center mb-3 active wow fadeInLeft"
+                                    data-wow-delay=".3s" style="width: 100px; height: 100px;">
+                                    <div class="text-white text-center">
+                                        <i class="fa-solid fa-xl fa-truck-fast mb-3"></i>
+                                        <div class="fs-7">FAST</div>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0)" data-id="#feature-focused"
+                                    class="toggle-button bg-primary rounded-circle shadow d-flex align-items-center justify-content-center mb-3 wow fadeInLeft"
+                                    data-wow-delay=".5s" style="width: 100px; height: 100px;">
+                                    <div class="text-white text-center">
+                                        <i class="fa-solid fa-xl fa-magnifying-glass mb-3"></i>
+                                        <div class="fs-7">FOCUSED</div>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0)" data-id="#feature-secure"
+                                    class="toggle-button bg-primary rounded-circle shadow d-flex align-items-center justify-content-center wow fadeInLeft"
+                                    data-wow-delay=".7s" style="width: 100px; height: 100px;">
+                                    <div class="text-white text-center">
+                                        <i class="fa-solid fa-xl fa-fingerprint mb-3"></i>
+                                        <div class="fs-7">SECURE</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 d-flex justify-content-center align-items-center wow fadeInUp">
+                            <img src="img/app.png" height="700" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center wow fadeInRight">
+                    <div class="feature-desc animated fadeIn active" id="feature-fast">
+                        <div class="section-header text-left">
+                            <h4 class="subtitle text-uppercase">fast</h4>
+                            <h2 class="text-capitalize display-5" style="font-weight: 300;"><span
+                                    class="fw-bold">Minimal</span> response time
+                            </h2>
+                        </div>
+
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary rounded-pill shadow py-3 px-5">Get started</a>
+                    </div>
+                    <div class="feature-desc d-none animated fadeIn" id="feature-focused">
+                        <div class="section-header text-left">
+                            <h4 class="subtitle text-uppercase">focused</h4>
+                            <h2 class="text-capitalize display-5" style="font-weight: 300;"><span
+                                    class="fw-bold">Enhanced</span> patient outcomes
+                            </h2>
+                        </div>
+
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary rounded-pill shadow py-3 px-5">Get started</a>
+                    </div>
+                    <div class="feature-desc d-none animated fadeIn" id="feature-secure">
+                        <div class="section-header text-left">
+                            <h4 class="subtitle text-uppercase">secure</h4>
+                            <h2 class="text-capitalize display-5" style="font-weight: 300;"><span
+                                    class="fw-bold">Secure</span> medical records
+                            </h2>
+                        </div>
+
+                        <div class="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary rounded-pill shadow py-3 px-5">Get started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- How it works Start -->
+    <div class="section howworks bg-secondary-light position-relative py-5" id="howitworks">
+        <div class="position-relative">
+            <div class="container">
+
+                <div class="section-header text-center wow fadeInUp" data-wow-delay=".1s">
+                    <h2 class="text-capitalize text-secondary-dark pt-5"><span style="font-weight: 300;">How does
+                            it</span>
+                        work?</h2>
+                </div>
+
+                <div class="row g-5 py-5">
+
+                    <div class="col-lg-3 align-items-center wow fadeInUp" data-wow-delay=".3s">
+                        <div class="position-relative">
+                            <div class="row mb-4">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="icon-background bg-light">
+                                        <img src="img/icons/install.png" width="70" alt="Image">
+                                        <div class="position-absolute bg-secondary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold"
+                                            style="width: 30px; height: 30px; top:10px;left:10px; rotate: -45deg;">1
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-absolute" style="right: -70px; top: 20px;"><img
+                                    src="img/icons/arrow.png" alt="" width="100"></div>
+                        </div>
+                        <div class="">
+                            <h5 class="text-center text-secondary-dark">Download and install<br>SOSassist app</h5>
+                            <div class="text-center">
+                                <p class="text-secondary-dark">Lorem ipsum dolor sit amet consec adipis elit. Etiam
+                                    accums lacus eget velit tincid, quis suscip justo dictum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3  align-items-center wow fadeInUp" data-wow-delay=".5s">
+                        <div class="position-relative">
+                            <div class="row mb-4">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="icon-background bg-light">
+                                        <img src="img/icons/select.png" width="70" alt="Image">
+                                        <div class="position-absolute bg-secondary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold"
+                                            style="width: 30px; height: 30px; top:10px;left:10px; rotate: -45deg;">2
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-absolute" style="right: -70px; top: 20px;"><img
+                                    src="img/icons/arrow.png" alt="" width="100"></div>
+                        </div>
+                        <div class="">
+                            <h5 class="text-center text-secondary-dark">Select your<br>preffered plan</h5>
+                            <div class="text-center">
+                                <p class="text-secondary-dark">Lorem ipsum dolor sit amet consec adipis elit. Etiam
+                                    accums lacus eget velit tincid, quis suscip justo dictum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3  align-items-center wow fadeInUp" data-wow-delay=".7s">
+                        <div class="position-relative">
+                            <div class="mb-4 d-flex justify-content-center align-items-center">
+                                <div class="icon-background bg-light">
+                                    <img src="img/icons/health-insurance.png" width="70" alt="Image">
+                                    <div class="position-absolute  bg-secondary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold"
+                                        style="width: 30px; height: 30px; top:10px;left:10px; rotate: -45deg;">3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="position-absolute" style="right: -70px; top: 20px;"><img
+                                    src="img/icons/arrow.png" alt="" width="100"></div>
+                        </div>
+                        <div class="">
+                            <h5 class="text-center text-secondary-dark">Securely add your<br>medical data</h5>
+                            <div class="text-center">
+                                <p class="text-secondary-dark">Lorem ipsum dolor sit amet consec adipis elit. Etiam
+                                    accums lacus eget velit tincid, quis suscip justo dictum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3  align-items-center wow fadeInUp" data-wow-delay=".7s">
+                        <div class="position-relative">
+                            <div class="mb-4 d-flex justify-content-center align-items-center">
+                                <div class="icon-background bg-light">
+                                    <img src="img/icons/press-button.png" width="70" alt="Image">
+                                    <div class="position-absolute  bg-secondary rounded-circle text-white d-flex align-items-center justify-content-center fw-bold"
+                                        style="width: 30px; height: 30px; top:10px;left:10px; rotate: -45deg;">3
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h5 class="text-center text-secondary-dark">Tap the button<br>for emergencies</h5>
+                            <div class="text-center">
+                                <p class="text-secondary-dark">Lorem ipsum dolor sit amet consec adipis elit. Etiam
+                                    accums lacus eget velit tincid, quis suscip justo dictum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- How it works End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="section testimonial container-fluid py-5 mb-5" id="testimonial">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h2 class="text-primary display-6" style="font-weight: 300;">What our users <span class="fw-bold">say
+                        about us</span></h2>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                <div class="testimonial-item p-4">
+                    <div class="border-bottom mb-4 pb-3">
+                        <p class="mb-0 text-primary">"Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
+                            interdum aliquam
+                            dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam
+                            mi."</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="" style="width: 60px;">
+                            <img src="img/testimonial-1.webp" alt="" class="rounded-circle">
+                        </div>
+                        <div class="ms-3 d-flex flex-fill align-items-center justify-content-between">
+                            <div>
+                                <h6 class="text-primary mb-0">Client Name</h6>
+                                <p class="m-0 fs-7">Play Store</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4">
+                    <div class="border-bottom mb-4 pb-3">
+                        <p class="mb-0 text-primary">"Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu
+                            fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            fugiat nulla pariatur."</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="" style="width: 60px;">
+                            <img src="img/testimonial-2.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="ms-3 d-flex flex-fill align-items-center justify-content-between">
+                            <div>
+                                <h6 class="text-primary mb-0">Client Name</h6>
+                                <p class="m-0 fs-7">App Store</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4">
+                    <div class="border-bottom mb-4 pb-3">
+                        <p class="mb-0 text-primary">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo."</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="" style="width: 60px;">
+                            <img src="img/testimonial-3.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="ms-3 d-flex flex-fill align-items-center justify-content-between">
+                            <div>
+                                <h6 class="text-primary mb-0">Client Name</h6>
+                                <p class="m-0 fs-7">Google</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                                <i class="fas fa-star me-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Banner Start -->
+    <div id="banner" class="section banner bg-primary text-white position-relative pt-5 mt-5">
+        <div class="container p-5 pb-0 wow fadeIn" data-wow-delay="0.2s">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="" style="overflow: hidden; height: 400px;">
+                    <img src="img/app.png" alt="" height="700" class="position-relative" style="z-index:2">
+                </div>
+                <div class="text-center pb-5 mb-5">
+                    <h2 class="display-5 mb-5" style="max-width: 600px; font-weight: 300;">We’re <span
+                            class="fw-bold">changing</span> the way
+                        Americans take care of <span class="fw-bold">their health</span></h2>
+                    <a class="btn btn-white rounded-pill shadow px-5 py-3 me-2 mb-3" href="#download">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-brands fa-apple fa-2x me-2"></i>
+                            <div class="text-start">
+                                <div style="font-size: 12px;">Download on the</div>
+                                <div style="line-height: .8;">App Store</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="btn btn-white-hollow border-2 text-capitalize rounded-pill px-5 py-3 mb-3"
+                        href="#download">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-brands fa-google-play fa-2x me-2"></i>
+                            <div class="text-start">
+                                <div style="font-size: 12px;">Download on the</div>
+                                <div style="line-height: .8;">Play Store</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+
+    <!-- FAQ Start -->
+    <div id="faq" class="section faq position-relative py-5 my-5">
+        <div class="container wow fadeInUp" data-wow-delay="0.2s">
+            <div class="section-header text-center">
+                <h2 class="text-capitalize text-primary pb-4" style="font-weight: 300;">Frequently asked <span
+                        style="font-weight: 700;">questions</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <div class="accordion faq-accordion" id="faqAccordion">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-primary collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    What if I can't download the app?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem
+                                        facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mt-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-primary collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Is the service free or paid?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem
+                                        facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mt-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-primary collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    What if I have an emergency outside the cover area?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem
+                                        facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mt-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-primary collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    How is my medical data managed?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem
+                                        facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mt-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-primary collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    What is the minimum age required to use the app?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem
+                                        facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem facere
+                                        deserunt sint animi sapiente vitae suscipit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="support-button text-center mt-4">
+                        <h5 class="text-primary pt-4">Can't find answers to your questions?</h4>
+                            <h5 class="text-primary"><b>Contact us</b></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#contact" class="btn arrow-nextsection text-primary" style="bottom: -30px;">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </div>
+    <!-- FAQ End -->
+
+
+    <!-- Contact Start -->
+    <div id="contact" class="section position-relative">
+        <div class="bg-primary">
+            <div class="container py-5">
+                <div class="section-header text-center py-3">
+                    <h2 class="text-white">Contact</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <form method="POST" id="contactForm" name="contactForm" class="contactForm position-relative"
+                            novalidate="novalidate" style="z-index: 1;">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" class="form-control" name="name" id="name"
+                                            placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-6 pl-0">
+                                    <div class="input-group input-group-lg">
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" class="form-control" name="subject" id="subject"
+                                            placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="input-group input-group-lg">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="3"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" value="Send message"
+                                        class="btn bg-light text-primary rounded float-end px-4 py-3">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-info px-4">
+                            <h3 class="text-white mb-5 display-6" style="font-weight: 300;"><span
+                                    style="font-weight: 700;">SOS</span>assist</h3>
+                            <h6 class="d-flex text-start align-items-center mb-4">
+                                <i class="fa-solid fa-xl fa-location-dot text-white me-3"></i>
+                                <a href="https://goo.gl/maps/H8v1mM3cdBt9fVz77" target="_blank"
+                                    rel="noopener noreferrer" class="text-white">312
+                                    Long Street,<br>Los Angeles, USA</a>
+                            </h6>
+                            <h6 class="d-flex text-start align-items-center mb-4">
+                                <i class="fa-solid fa-xl fa-phone text-white me-3"></i>
+                                <a href="tel:+12345678900" class="text-white">+1 234 567 8900</a>
+                            </h6>
+                            <h6 class="d-flex text-start align-items-center mb-4">
+                                <i class="fa-regular fa-xl fa-envelope text-white me-3"></i>
+                                <a href="mailto:contact@maidsforgood.com"
+                                    class="text-white">contact@maidsforgood.com</a>
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="https://goo.gl/maps/H8v1mM3cdBt9fVz77" target="_blank" rel="noopener noreferrer">
+                            <div class="about-img morphing-img"
+                                style="width: 100%; height: 320px; background-image: url(img/maps.jpg)">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+    <!-- Copyright Start -->
+    <div class="section container-fluid bg-white wow fadeIn" id="copyright">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <span>
+                        <span class="text-primary">
+                            <i class="fas fa-copyright text-primary me-2"></i><b>SOS</b>assist</span>. All right
+                        reserved.
+                    </span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <span>
+                        Designed By <a href="https://primsite.ro" target="_blank" class="text-primary">Primsite</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+
+    <!-- Floating Button Start -->
+    <section id="sticky-action-button" class="d-none d-xxl-block position-fixed wow fadeInUp" data-wow-delay=".5s">
+        <div class="d-flex align-items-center">
+            <div class="main-content-container d-flex align-items-center">
+                <img src="img/icon.png" alt="Logo" height="50" class="me-3">
+                <div class="copy-wrapper me-3">
+                    <div class="company-name">
+                        <span class="fw-bold">SOS</span>assist
+                    </div>
+                    <div class="sub-text">
+                        Over 3 million downloads
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-primary rounded-pill px-4" href="#">
+                Join now
+            </a>
+        </div>
+        <a href="javascript:void(0)" id="close-floating-action"
+            class="position-absolute bg-black rounded-circle text-white p-2">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+    </section>
+    <!-- Floating Button End -->
+
+
+
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+        integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- WOW JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Lightbox for Bootstrap 5 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bs5-lightbox/1.8.3/index.bundle.min.js"
+        integrity="sha512-wOwwlvSeaATXscQHfDsAUnt3cBBvrKkyf7lI+k/88X6x/fxtc678fTdKRNcxZxtRdpzYFiIqqW5uIRUiPlZJlw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Waypoints JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+        integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- OWL Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
